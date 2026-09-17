@@ -41,4 +41,4 @@ async def get_canteens():
     return fake_canteens_db
 
 # КОМАНДА ДЛЯ ЗАПУСКА:
-# python -m uvicorn app.main:app --reload
+# python -m uvicorn backend.main:app --reload
